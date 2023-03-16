@@ -1,0 +1,52 @@
+
+body {
+  background-image: url(images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@font-face { 
+  font-family: magician; 
+  src: url(fonts/Magician.ttf); 
+}
+@font-face { 
+  font-family: sono; 
+  src: url(fonts/Sono-Regular.ttf); 
+}
+#header {
+  color: white;
+  font-family: magician;
+  font-size: 390%;
+  margin-left: 40%;
+  margin-right: 30%;
+}
+h2 {
+  color: white;
+  font-family: magician;
+  font-size: 40px;
+}
+p {
+  color: white;
+  font-family: sono;
+}
+#wrapper {
+  width: 960px;
+}
+#main {
+  float: left;
+  width: 650px;
+  margin: 0 20px;
+}
+#extras {
+  float: left;
+  width: 250px;
+  margin: 0 20px 0 0;
+}
+#footer {
+  color: white;
+  clear: left;
+}
+.house {
+  width: 30%;
+  height: 20%;
+  border-radius: 10%;
+}
